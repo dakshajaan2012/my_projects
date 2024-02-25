@@ -1,0 +1,96 @@
+.container {
+  background-color: rgb(234, 234, 234);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.container h1 {
+  background-image: url(/public/AboutUs-wallpaper.jpg);
+  font-size: auto;
+  font-weight: bold;
+  padding: 80px;
+  margin: 0;
+}
+
+.container p {
+  font-size: auto;
+  font-weight: lighter;
+  padding: 10px;
+  color: black;
+}
+
+.container span {
+  font-size: auto;
+  font-style: italic;
+  color: black;
+}
+
+.leftcontainers {
+  background-color: rgb(124, 124, 124);
+  color: white;
+  align-items: center;
+  padding: 50px;
+}
+
+.leftcontainers img {
+  padding: 20px;
+  width: 50%;
+  opacity: 0.8;
+}
+
+.leftcontainers h2 {
+  text-align: left;
+  padding: 30px;
+}
+
+.leftcontainers h3 {
+  text-align: left;
+  font-size: auto;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.rightcontainers {
+  background-color: rgb(227, 245, 254);
+  padding: 50px;
+}
+
+.rightcontainers img {
+  padding: 20px;
+  width: 50%;
+  opacity: 0.8;
+}
+
+.rightcontainers h2 {
+  text-align: left;
+  padding: 30px;
+}
+
+.rightcontainers h3 {
+  text-align: left;
+  font-size: auto;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
+.footer h3 {
+  text-align: center;
+  padding: 10px;
+  font-weight: lighter;
+  margin: 20px;
+}
