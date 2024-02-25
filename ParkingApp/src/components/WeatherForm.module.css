@@ -1,0 +1,115 @@
+
+
+/* WeatherForm.module.css */
+
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 20px auto; 
+    /*background-color: transparent;*/
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px; 
+    overflow: hidden; 
+    width: 80%; 
+    max-width: 800px; 
+    height: auto; 
+    background: linear-gradient(to bottom, #82bfe7, #5cbda9); 
+    animation: fadeIn 1s ease-in-out; 
+}
+  
+  .input {
+    background-color: #dce3eb;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .weatherContainer {
+    display:flex;
+    text-align: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+  
+  .weatherInfo {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #343a40;
+  }
+
+.weatherData {
+  display: flex;
+  flex-direction:row;
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.weatherInfoContainer {
+  display: flex;
+  align-items: center; 
+}
+
+.temperature {
+  margin-left: 10px; 
+}
+
+.weatherDataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center; 
+}
+
+.button {
+  width: 100px; 
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  border: 2px solid #3498db; 
+  border-radius: 5px; 
+}
+
+
+.button1Container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: transparent;
+}
+
+.button1 {
+  width: 100px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: none; /* Removed border */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+  
+  

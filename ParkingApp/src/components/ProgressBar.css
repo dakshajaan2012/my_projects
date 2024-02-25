@@ -1,0 +1,11 @@
+.progress-bg {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.progress {
+  height: 5px; /* or any suitable height */
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
